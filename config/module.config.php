@@ -10,7 +10,7 @@ return [
     ),
     'view_helpers' => array(
         'invokables' => array(
-            'coinhive/captcha' => Helper\CoinHiveCaptchaHelper::class,
+            'captcha/coinhive' => Helper\CoinHiveCaptchaHelper::class,
         ),
     ),
 ];
