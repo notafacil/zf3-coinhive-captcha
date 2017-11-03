@@ -42,7 +42,7 @@ class CoinHiveCaptchaHelper extends FormInput
         $placeholder = "<em>Loading Captcha...<br> If it doesn't load, please disable Adblock!</em>";
         $html = sprintf('<div class="coinhive-captcha" data-key="%s" data-hashes="%s">%s</div>', $pubKey, $hashes, $placeholder);
         //Add the js for the recaptcha api
-        $this->view->headScript()->appendFile('https://coinhive.com/lib/captcha.min.js');
+        $this->view->headScript()->appendFile('//authedmine.com/lib/captcha.min.js');
 
         return $html;
     }
