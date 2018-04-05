@@ -4,8 +4,8 @@ Simple way to use the coinhive.com captcha
 ## Installation 
 ### with composer
 Just add the following line to your requirements:
-```json
-"n0v3xx/zf3-coinhive-captcha": "1.*"
+```bash
+composer require notafacil/zf3-coinhive-captcha
 ```
 and run
 ```bash
