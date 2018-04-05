@@ -1,5 +1,5 @@
 {
-  "name": "n0v3xx/zf3-coinhive-captcha",
+  "name": "notafacil/zf3-coinhive-captcha",
   "type": "library",
   "description": "CoinHive Captcha module for Zend Framework 2 & 3 (ZF2 / ZF3)",
   "keywords": [
@@ -8,8 +8,8 @@
     "coinhive",
     "captcha"
   ],
-  "homepage": "https://github.com/n0v3xx/zf3-coinhive-captcha",
-  "license": "GPL-3.0",
+  "homepage": "https://github.com/notafacil/zf3-coinhive-captcha",
+  "license": "MIT",
   "require": {
     "php": ">=5.6",
     "zendframework/zend-captcha": "2.*"
